@@ -14,57 +14,57 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Idea 💡💡
+This project is meant to be a mock of a movie streaming website. 
+This website woud be primarily html and css for the time being. As I progress, I will be adding functionality to it. 
 
-### `npm run build`
+### Challanges encountered 😭😭
+## Bootstrap
+The first issue I faced was in adding Bootstrap to my app. 
+I didn't initially know that Bootstrap didn't work on React the same way it did on vanilla html. 
+After finding out about React Bootstrap, I went about the process of installing it. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`
+npm install react-bootstrap bootstrap
+`
+# After Installing Bootstrap
+After running this, I encountered a peculiar issue: my react app stopped working. Local host 3000 wasn't spinning up anything anymore. 
+I solved this problem by having to run 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`
+npm start
+`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+again after installing Bootstrap. 
 
-### `npm run eject`
+# Changing the styles in my bootstrap
+I didn't like some of the bootstrap styles, and I trid to change it to suit my taste, but this proved very tasking. As at writing this, I still have not figured out how to do this. 
+had to result to using a lot of inline styling. 
+I dislike inline styling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Adding an image to a React app
+It wasn't till after hours of trying did I finally figure out that I was required to import my image first, before going ahead to use it. 
+An example: 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`
+import download from "./download.png"
+`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+then go ahead an add it to your image as thus:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+ <img
+  alt="logo"
+  src={download}
+  width="40"
+  height="40"
+  className="d-inline-block align-top brand-image" />
+  ```
 
-## Learn More
+Looking forward to the many things I am going to learn. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Resources used:
+1. React Bootstrap documentation [https://react-bootstrap.github.io/getting-started/introduction]
+2. Coding status [https://codingstatus.com/how-to-display-images-in-react-js/]
+3. Google and stackoverflow as always 😏 

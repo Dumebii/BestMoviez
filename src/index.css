@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.brand-image {
+  /* height: 40vmin; */
+  pointer-events: none;
+  border-radius: 40px;
+}
+
+
+.nav-link {
+  color: #ffff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .brand-image {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+

@@ -2,16 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.brand-image {
+  /* height: 40vmin; */
   pointer-events: none;
+  border-radius: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .brand-image {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.nav-link {
+  color: #ffff;
+  font-size: larger;
+}
+
 
 .App-header {
   background-color: #282c34;

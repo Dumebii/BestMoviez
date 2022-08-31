@@ -1,0 +1,11 @@
+.gridimage {
+    /* float: left; */
+    height: 200px;
+    width: 150px
+}
+
+.moviegrid {
+    padding-top: 50px;
+    /* border-radius: 50px 50px 0; */
+    background-color: #A77979;
+}

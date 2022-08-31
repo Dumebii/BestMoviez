@@ -8,20 +8,21 @@ import Form from 'react-bootstrap/Form';
 import '../App.css';
 import '../index.css';
 import MyCarousel from './Carousel';
+import styles from './styles/navbar.module.css'
 
 
 function NavBar() {
     return(
         <div>
-             <Navbar bg="dark" expand="lg" variant="light" style={{fontSize: "1.5em"}} style={{paddingBottom: "20px"}}>
+             <Navbar bg="dark" expand="lg" variant="light" className={styles.navbar}>
       <Container>
         <NavBrand />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto nav-link1" >
-            <Nav.Link href="#home" variant="light" style={{color:"white"}}>Home</Nav.Link>
-            <Nav.Link href="#link" style={{color:"white"}}>Ratings</Nav.Link>
-            <NavDropdown title="Categories" id="basic-nav-dropdown" style={{color:"white"}}>
+          <Nav className="me-auto" >
+            <Nav.Link href="#home" variant="light" className={styles.navlink}>Home</Nav.Link>
+            <Nav.Link href="#link" className={styles.navlink}>Ratings</Nav.Link>
+            <NavDropdown title="Categories" id="basic-nav-dropdown" className={styles.navlink} >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Adventure

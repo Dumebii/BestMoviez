@@ -15,11 +15,11 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-### Project Idea 💡💡
+# Project Idea 💡💡
 This project is meant to be a mock of a movie streaming website. 
 This website woud be primarily html and css for the time being. As I progress, I will be adding functionality to it. 
 
-### Challanges encountered 😭😭
+# Challanges encountered 😭😭
 ## Bootstrap
 The first issue I faced was in adding Bootstrap to my app. 
 I didn't initially know that Bootstrap didn't work on React the same way it did on vanilla html. 
@@ -28,7 +28,7 @@ After finding out about React Bootstrap, I went about the process of installing 
 `
 npm install react-bootstrap bootstrap
 `
-# After Installing Bootstrap
+### After Installing Bootstrap
 After running this, I encountered a peculiar issue: my react app stopped working. Local host 3000 wasn't spinning up anything anymore. 
 I solved this problem by having to run 
 
@@ -38,7 +38,7 @@ npm start
 
 again after installing Bootstrap. 
 
-# Changing the styles in my bootstrap
+## Changing the styles in my bootstrap
 I didn't like some of the bootstrap styles, and I trid to change it to suit my taste, but this proved very tasking. As at writing this, I still have not figured out how to do this. 
 had to result to using a lot of inline styling. 
 I dislike inline styling.
@@ -77,7 +77,7 @@ in my index.css file. This did the trick!
 
 Looking forward to the many things I am going to learn. 
 
-### Resources used:
+# Resources used:
 1. React Bootstrap documentation [https://react-bootstrap.github.io/getting-started/introduction]
 2. Coding status [https://codingstatus.com/how-to-display-images-in-react-js/]
 3. Solution to styling my webpage body [https://stackoverflow.com/questions/42464888/how-do-i-change-the-background-color-of-the-body]

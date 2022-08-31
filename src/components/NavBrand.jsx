@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import download from "./download.png"
+import download from "./images/download.png"
 import '../App.css';
 import '../index.css';
 

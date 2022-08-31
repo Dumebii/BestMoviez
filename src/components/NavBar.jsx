@@ -7,12 +7,13 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../App.css';
 import '../index.css';
+import MyCarousel from './Carousel';
 
 
 function NavBar() {
     return(
         <div>
-             <Navbar bg="dark" expand="lg" variant="light" style={{fontSize: "1.5em"}}>
+             <Navbar bg="dark" expand="lg" variant="light" style={{fontSize: "1.5em"}} style={{paddingBottom: "20px"}}>
       <Container>
         <NavBrand />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,6 +48,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <MyCarousel />
         </div>
     )
 };

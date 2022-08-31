@@ -62,9 +62,23 @@ then go ahead an add it to your image as thus:
   className="d-inline-block align-top brand-image" />
   ```
 
+## Styling the body of my page
+I had the most issues with this. ANy general styling I wanted to do simply won't work and I was very frustrated. 
+Read through a lot of material online, but the solutions were mostly based on using vanilla javascript to manipulate the background color. 
+I didn't want to do this, as I had multiple styles to add.
+I eventually found a solution that suggested to target the id #root from the html as thus 
+
+`
+#root {background-color: red};
+`
+
+in my index.css file. This did the trick!
+
+
 Looking forward to the many things I am going to learn. 
 
 ### Resources used:
 1. React Bootstrap documentation [https://react-bootstrap.github.io/getting-started/introduction]
 2. Coding status [https://codingstatus.com/how-to-display-images-in-react-js/]
-3. Google and stackoverflow as always 😏 
+3. Solution to styling my webpage body [https://stackoverflow.com/questions/42464888/how-do-i-change-the-background-color-of-the-body]
+4. Google and stackoverflow as always 😏 

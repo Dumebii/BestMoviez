@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/NavBar';
+import './index.css';
+import Heading from './components/Heading'
+import MovieGrid from './components/MovieGrid';
 
 
 function App() {
   return (
     <div>
-      <NavBar /> 
+     <Heading />
+     <MovieGrid />
     </div>
   );
 }

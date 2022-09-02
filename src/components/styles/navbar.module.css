@@ -1,6 +1,7 @@
 .navbar {
     font-size: 1.5em;
     padding-bottom: 15px;
+    position: fixed;
 }
 
 .navlink {

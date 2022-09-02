@@ -14,7 +14,7 @@ function MovieGrid() {
         <section className={styles.moviegrid} >
     <div>
       <Container>
-      <Row xs={6} md={4} lg={5}>
+      <Row xs={3} sm={6} md={4} lg={5}>
         <Col>
           <a href='#'>
             <img className={styles.gridimage} src={image1}

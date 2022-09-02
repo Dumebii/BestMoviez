@@ -13,15 +13,15 @@ import styles from './styles/navbar.module.css'
 
 function NavBar() {
     return(
-        <div>
-             <Navbar bg="dark" expand="lg" variant="light" className={styles.navbar}>
+        <div >
+             <Navbar bg="primary" expand="lg" variant="light" className={styles.navbar}>
       <Container>
         <NavBrand />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
-            <Nav.Link href="#home" variant="light" className={styles.navlink}>Home</Nav.Link>
-            <Nav.Link href="#link" className={styles.navlink}>Ratings</Nav.Link>
+            <Nav.Link href="#home" variant="light" className={styles.navlink} style={{color: "white"}}>Home</Nav.Link>
+            <Nav.Link href="#link" className={styles.navlink} style={{color: "white"}}>Ratings</Nav.Link>
             <NavDropdown title="Categories" id="basic-nav-dropdown" className={styles.navlink} >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -49,7 +49,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <MyCarousel />
+    
         </div>
     )
 };

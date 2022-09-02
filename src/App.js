@@ -2,6 +2,7 @@
 import './index.css';
 import Heading from './components/Heading'
 import MovieGrid from './components/MovieGrid';
+import Buttons from './components/Buttons';
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
     <div>
      <Heading />
      <MovieGrid />
+     <MovieGrid />
+     <MovieGrid />
+     <Buttons />
     </div>
   );
 }

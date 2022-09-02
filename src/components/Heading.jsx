@@ -6,6 +6,7 @@ function Heading() {
         <div>
           <NavBar 
            />
+           <MyCarousel />
           
         </div>
 

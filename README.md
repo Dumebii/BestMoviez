@@ -74,9 +74,47 @@ I eventually found a solution that suggested to target the id #root from the htm
 
 in my index.css file. This did the trick!
 
+## Changing the icon
+This might sound so silly but I stressed so much over this. Had to go the extent of renaming my icon to match the name in the pre-formatted react app, and deleting their icon. 
+
+This of course didn't work for days. I kept wondering why till I finally realised that i missed a closing quote in my link tag. 🤣🤣
+
+## Responsiveness
+I had a bit of an issue making this responsive. 
+
+To be honest, I can't fully remember all that I did, I just kept playng around with bootstrap till I found what worled for me. Sorry guys 😔
+
+It is not half as responsive as I would have wanted it, but I am unsure what next to do now.
+
+## Adding functionality
+My biggest snag so far would be the fact that I can't think of a single functionality to add.
+
+I want to include more javascript in it, or at least react props, but I can't think of anything at the moment.
+
+Would keep updating as th ideas come. 
 
 Looking forward to the many things I am going to learn. 
 
+
+# Learning curve
+1. ### React Bootstrap:
+This was the biggest lesson from this project. First from finding out about React BOotstrap, to learning how to use it. 
+Although I didn't use any fancy Bootstrap components, I am still glad for the ones I used.
+
+2. ### Rendering images in React
+This was probably the most annoying, mostly because I felt it was something that I had to know, yet didn't. 
+
+Gosh!! 😂😂😂
+
+3. ### Writing a ReadME 
+This is my first time writing a comorehensive ReadMe, journaling my progress along the project. 
+
+It was tough as this isn't something that I am used to doing, but I am really glad that I learnt it. 
+
+I defintely know that there is a lot of room for improvement, but I am glad at how far I have come. 
+
+4. ### Running npm start 
+This was also big for me as thhe first time my React app didn't work, I didn't know that it simply meant React wasnt "spinning" on my port anymore, and I had to re-initialise it. 
 # Resources used:
 1. React Bootstrap documentation [https://react-bootstrap.github.io/getting-started/introduction]
 2. Coding status [https://codingstatus.com/how-to-display-images-in-react-js/]

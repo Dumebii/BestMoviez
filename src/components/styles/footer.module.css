@@ -1,0 +1,41 @@
+
+.anchors {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.secondAnchors {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.anchor:hover {
+   color: black;
+}
+
+
+.anchor2 {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.navbrand {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .anchors, .secondAnchors {
+        flex-direction: column;
+        text-align: center;
+    }
+}

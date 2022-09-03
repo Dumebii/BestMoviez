@@ -115,6 +115,13 @@ I defintely know that there is a lot of room for improvement, but I am glad at h
 
 4. ### Running npm start 
 This was also big for me as thhe first time my React app didn't work, I didn't know that it simply meant React wasnt "spinning" on my port anymore, and I had to re-initialise it. 
+
+5. ### CSS modules
+This was the sweetest thing to learn!!
+
+My! 🤣🤣 I didn't have to bother about repeating my classnames, or of styles colliding. Each component had its own css module.This mad writing css a whole lot easier. 
+
+Definetely recommend it for React users. 
 # Resources used:
 1. React Bootstrap documentation [https://react-bootstrap.github.io/getting-started/introduction]
 2. Coding status [https://codingstatus.com/how-to-display-images-in-react-js/]

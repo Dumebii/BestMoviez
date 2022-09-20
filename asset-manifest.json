@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Dumebii/BestMoviez.git/static/css/main.8a55e807.css",
-    "main.js": "/Dumebii/BestMoviez.git/static/js/main.98c72164.js",
-    "static/js/787.7c42db31.chunk.js": "/Dumebii/BestMoviez.git/static/js/787.7c42db31.chunk.js",
-    "static/media/movieGrid4.jfif": "/Dumebii/BestMoviez.git/static/media/movieGrid4.ae15ab859df7a6821f5f.jfif",
-    "static/media/carousel-image3.webp": "/Dumebii/BestMoviez.git/static/media/carousel-image3.e83708aee03f07918990.webp",
-    "static/media/carousel-image2.jpg": "/Dumebii/BestMoviez.git/static/media/carousel-image2.0267edab67a3e47d08f9.jpg",
-    "static/media/movieGrid3.jpg": "/Dumebii/BestMoviez.git/static/media/movieGrid3.82c9852072bba33b8bc5.jpg",
-    "static/media/movieGrid2.webp": "/Dumebii/BestMoviez.git/static/media/movieGrid2.9967c911dcd4a608dd06.webp",
-    "static/media/movieGrid1.jpg": "/Dumebii/BestMoviez.git/static/media/movieGrid1.52b2f4bb19c13b86aef7.jpg",
-    "static/media/begingingCarousel.jfif": "/Dumebii/BestMoviez.git/static/media/begingingCarousel.ec99267683c1adcda1b2.jfif",
-    "static/media/carousel-image1.jpg": "/Dumebii/BestMoviez.git/static/media/carousel-image1.849e7f97c1dd798360e2.jpg",
-    "index.html": "/Dumebii/BestMoviez.git/index.html",
-    "main.8a55e807.css.map": "/Dumebii/BestMoviez.git/static/css/main.8a55e807.css.map",
-    "main.98c72164.js.map": "/Dumebii/BestMoviez.git/static/js/main.98c72164.js.map",
-    "787.7c42db31.chunk.js.map": "/Dumebii/BestMoviez.git/static/js/787.7c42db31.chunk.js.map"
+    "main.css": "/Bestmoviez.git/static/css/main.fd11ef4a.css",
+    "main.js": "/Bestmoviez.git/static/js/main.534f6cae.js",
+    "static/js/787.7c42db31.chunk.js": "/Bestmoviez.git/static/js/787.7c42db31.chunk.js",
+    "static/media/movieGrid4.jfif": "/Bestmoviez.git/static/media/movieGrid4.ae15ab859df7a6821f5f.jfif",
+    "static/media/carousel-image3.webp": "/Bestmoviez.git/static/media/carousel-image3.e83708aee03f07918990.webp",
+    "static/media/carousel-image2.jpg": "/Bestmoviez.git/static/media/carousel-image2.0267edab67a3e47d08f9.jpg",
+    "static/media/movieGrid3.jpg": "/Bestmoviez.git/static/media/movieGrid3.82c9852072bba33b8bc5.jpg",
+    "static/media/movieGrid2.webp": "/Bestmoviez.git/static/media/movieGrid2.9967c911dcd4a608dd06.webp",
+    "static/media/movieGrid1.jpg": "/Bestmoviez.git/static/media/movieGrid1.52b2f4bb19c13b86aef7.jpg",
+    "static/media/begingingCarousel.jfif": "/Bestmoviez.git/static/media/begingingCarousel.ec99267683c1adcda1b2.jfif",
+    "static/media/carousel-image1.jpg": "/Bestmoviez.git/static/media/carousel-image1.849e7f97c1dd798360e2.jpg",
+    "index.html": "/Bestmoviez.git/index.html",
+    "main.fd11ef4a.css.map": "/Bestmoviez.git/static/css/main.fd11ef4a.css.map",
+    "main.534f6cae.js.map": "/Bestmoviez.git/static/js/main.534f6cae.js.map",
+    "787.7c42db31.chunk.js.map": "/Bestmoviez.git/static/js/787.7c42db31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a55e807.css",
-    "static/js/main.98c72164.js"
+    "static/css/main.fd11ef4a.css",
+    "static/js/main.534f6cae.js"
   ]
 }

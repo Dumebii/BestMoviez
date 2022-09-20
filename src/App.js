@@ -2,8 +2,9 @@
 import './index.css';
 import Heading from './components/Heading'
 import MovieGrid from './components/MovieGrid';
-import Buttons from './components/Buttons';
+// import Buttons from './components/Buttons';
 import Footer from './components/Footer';
+import PageNumbers from './components/BootstrapExamples';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
      <MovieGrid />
      <h1> Summer Collection </h1>
      <MovieGrid />
-     <Buttons />
+     <PageNumbers />
      <Footer />
     </div>
   );
